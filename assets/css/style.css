@@ -1,23 +1,21 @@
+body {
+  background-color: #e5e5e5;
+  font-family: "Roboto", sans-serif;
+}
 header {
   height: 80px;
   width: 100%;
   background-color: #fff;
   border-bottom: medium solid #f3735f;
 }
+
 .topbar {
   max-width: 1024px;
-  height: 80px;
-
   background-color: #fff;
   margin: 0 auto;
 }
 
-body {
-  background-color: #e5e5e5;
-  font-family: "Roboto", sans-serif;
-}
-
-header img {
+.topbar img {
   margin: 24px 0 24px 204px;
   width: 200px;
   height: auto;
@@ -31,16 +29,16 @@ h1 {
   padding: 60px 0px 0px;
 }
 main {
-  margin: 60px 0px 0px;
+  margin-top: 80px;
 }
 .container {
   background-color: #fff;
   max-width: 1024px;
-  height: 1179px;
   border-radius: 10px;
   padding-left: 30px;
   padding-right: 30px;
   margin: 0 auto;
+  padding-bottom: 60px;
 }
 .info_sup {
   color: #6c6c6c;
@@ -90,6 +88,7 @@ li {
   margin: 40px;
   text-align: center;
   margin-bottom: 70px;
+  cursor: pointer;
 }
 .rectangle {
   font-size: 22px;
