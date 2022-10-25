@@ -15,9 +15,9 @@
     <title>Marmiton</title>
   </head>
   <body>
-    <header class="topbar">
-      <nav>
-        <img class="logo_header" src="./assets/images/logo.png" alt="logo" />
+    <header>
+      <nav class="topbar">
+        <img src="./assets/images/logo.png" alt="logo" />
       </nav>
     </header>
     <main class="main">
@@ -31,11 +31,15 @@
         <p class="time">
           <span class="rectangle">TAMPS TOTAL : 17 MIN</span>
         </p>
-
-        <img src="./assets/images/crepe-1.jpg" alt="crèpe 1" />
-        <img src="./assets/images/crepe-2.jpg" alt="crèpe 2" />
-        <img src="./assets/images/crepe-3.jpg" alt="crèpe 3" />
-
+        <div class="image_crepes">
+          <img src="./assets/images/crepe-1.jpg" alt="crèpe 1" />
+          <img
+            class="img_crèpe"
+            src="./assets/images/crepe-2.jpg"
+            alt="crèpe 2"
+          />
+          <img src="./assets/images/crepe-3.jpg" alt="crèpe 3" />
+        </div>
         <h2>Ingrédients</h2>
         <ul>
           <li>5 ouefs</li>
@@ -46,7 +50,7 @@
           <li>1/2 verre de bière</li>
         </ul>
         <h2>Préparation</h2>
-        <div class="preparation">
+        <div>
           <h3>Etape 1</h3>
           <p>
             Dans un saladier verser la moitié de la farine; puis rajouter les
